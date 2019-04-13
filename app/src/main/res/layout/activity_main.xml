@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1ID"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#00BFFF"
+        android:text="LILYPAD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="213dp"
+        android:layout_height="348dp"
+        android:layout_below="@id/button1ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/play" />
+
+    <EditText
+        android:id="@+id/editText"
+
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/button1ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:text="[Start an activity] " />
+
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="114dp"
+        android:layout_toRightOf="@+id/image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Monday" />
+
+    <TextView
+        android:id="@+id/image1"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="208dp"
+        android:layout_toRightOf="@+id/image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        tools:text="27" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="191dp"
+        android:layout_height="122dp"
+        android:layout_below="@+id/image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="20dp"
+        android:background="#00BFFF"
+        app:srcCompat="@drawable/list" />
+
+    <EditText
+        android:id="@+id/editText1"
+
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:text="Activity Feed " />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="188dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="13dp"
+        android:background="#00BFFF"
+        app:srcCompat="@drawable/doc" />
+
+    <EditText
+        android:id="@+id/editText2"
+
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/image"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:text="Messages" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="187dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="206dp"
+        android:background="#00BFFF"
+        app:srcCompat="@drawable/folder" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="187dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="206dp"
+        android:inputType="text"
+        tools:text="Documents" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="190dp"
+        android:layout_height="109dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="16dp"
+        android:background="#00BFFF"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="190dp"
+        android:layout_height="109dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp"
+        android:inputType="text"
+        tools:text="profile" />
+
+
+
+</RelativeLayout>
